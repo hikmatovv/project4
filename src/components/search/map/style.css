@@ -1,0 +1,43 @@
+.leaflet-container{
+    width: 100%;
+    height: 100%;
+
+}
+@media screen and (max-Width:320px){
+    .leaflet{
+        width:270px;
+        height:270px;
+
+    }
+}
+
+@media screen and (min-Width:375px){
+    .leaflet{
+        width:325px;
+        height:325px;
+    }
+}
+@media screen and (min-Width:425px){
+    .leaflet{
+        width:375px;
+        height:375px;
+    }
+}
+@media screen and (min-Width:768px){
+    .leaflet{
+        width:700px;
+        height:700px;
+    }
+}
+@media screen and (min-Width:1024px){
+    .leaflet{
+        width:455px;
+        height:455px;
+    }
+}
+@media screen and (min-Width:1440px){
+    .leaflet{
+        width:540px;
+        height:540px;
+    }
+}
